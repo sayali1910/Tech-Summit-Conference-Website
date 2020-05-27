@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
+        <style>
+            .card-text{
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+                            /* The device with borders */
+            .smartphone {
+            position: relative;
+            width: 360px;
+            height: 640px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 60px;
+            border-bottom-width: 60px;
+            border-radius: 36px;
+            }
+
+            /* The device with borders */
+            .smartphone {
+            position: relative;
+            width: 360px;
+            height: 640px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 60px;
+            border-bottom-width: 60px;
+            border-radius: 36px;
+            }
+
+            /* The horizontal line on the top of the device */
+            .smartphone:before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px;
+            }
+
+            /* The circle on the bottom of the device */
+            .smartphone:after {
+            content: '';
+            display: block;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            left: 50%;
+            bottom: -65px;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 50%;
+            }
+
+            /* The screen (or content) of the device */
+            .smartphone{
+            width: 360px;
+            height: 640px;
+            background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a href="#" class="navbar-brand"><i class="fa fa-cubes" style="font-size:36px"></i>&nbsp;Tech Summit Conference</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse1">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active" style="background-color: aquamarine; color: black;">
+                        <i class='fas fa-home'></i>&nbsp;Home
+                    </a>
+                    <a href="about.html" class="nav-item nav-link" style="background-color:azure; color: black;">
+                        <i class='fas fa-edit'></i>&nbsp;About
+                    </a>
+                    <a href="contact.html" class="nav-item nav-link" style="background-color:bisque; color: black;">
+                        <i class='fas fa-phone'></i>&nbsp;Contact Us
+                    </a>
+                    <a href="agenda.html" class="nav-item nav-link" style="background-color:lightblue; color: black;">
+                        <i class='fa fa-line-chart'></i>&nbsp;Agenda
+                    </a>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron" style="background-image: url(Images/contactus.jpg);">
+            <h1 style="color: aliceblue;">Contact Us</h1>
+        </div>
+        <div class="smartphone">
+              <iframe src="form.html" class="embed-responsive-item" width="100%" height="100%" allowfullscreen></iframe>
+        </div>
+
+    </body>
+</html>
